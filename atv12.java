@@ -6,6 +6,8 @@ public class atv12 {
         int num1 = entrada.nextInt();
         int num2 = entrada.nextInt();
         int resultado = num1 % num2;
+        boolean divisivel = (num1 % num2 == 0);
         System.out.println("O resto da divisão entre esses números é: " + resultado);
+        System.out.println("O primeiro número é divisível pelo segundo? " + divisivel);
     }
 }

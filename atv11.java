@@ -8,7 +8,8 @@ public class atv11 {
         int soma = num1 + num2;
         int subtracao = num1 - num2;
         int multiplicacao = num1 * num2;
-        int divisao = num1 / num2;
+        // exibir a divisão com resultado decimal 
+        double divisao = (double) num1 / num2;
         System.out.println("A soma dos números é: " + soma);
         System.out.println("A subtração entre esses números é: " + subtracao);
         System.out.println("O produto desses números é: " + multiplicacao);
